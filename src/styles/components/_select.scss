@@ -1,0 +1,86 @@
+// default
+
+.select{
+    @include border;
+    padding: .8rem;
+    @include border-radius;
+    text-align: center;
+    display: inline-block;
+}
+
+select{
+    border: none;
+//   width: 100%;
+  background: transparent;
+  outline: transparent;
+}
+
+
+.select:focus,
+.select:hover{
+
+    outline: none;
+    @include border-active;
+}
+
+.select option{
+    background: transparent !important;
+}
+
+
+// Style 2
+.dropdown{
+    width: 18rem;
+    position: relative;
+    margin-bottom: 20rem;
+
+    .dropdown-select{
+        padding: 1.6rem;
+        @include border;
+        @include border-radius;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        font-size: 1.6rem;
+        cursor: pointer;
+
+        .select-icon{
+            fill: $color-body;
+            height: 2.4rem;
+        }
+
+        .select-content{
+            align-self: center;
+        }
+    }
+
+    .dropdown-list{
+        @include border-radius;
+        @include border;
+        position: absolute;
+        top: 105%;
+        left: 0;
+        right: 0;
+        opacity: 0;
+        transition: opacity 0.2s linear, visibility 0.2s linear;
+
+        &__item{
+            padding: 1.6rem;
+
+        }
+
+        &__item:hover{
+            background-color: $color-input-background;
+            @include border-radius;
+        }
+    }
+
+   
+
+}
+
+.dropdown:hover .dropdown-list{
+    opacity: 1;
+    visibility: visible;
+}

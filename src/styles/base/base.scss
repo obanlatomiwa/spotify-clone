@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,600&display=swap');
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html{
+    //This deifnes what 1rem is. Web browser base is 16px, but the this project has 10px as its base.
+    font-size: 62.5%;
+    width: 100vw;
+    overflow-y: overlay;
+}
+
+
+body {
+    box-sizing: border-box; 
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 1.7;
+    color: $color-body;
+    background: $color-background;
+}
+.bd-container{
+    padding: 0 12rem;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .bd-container {
+        padding: 0 4.8rem;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .bd-container{
+        padding: 0 1.6rem;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .bd-container{
+        padding: 0 1.6rem;
+    }
+}
+
+.pages{
+    min-height: 100vh;
+    position: relative;
+    overflow: hidden;
+    margin: 0;
+    padding-bottom: 6rem; //height of the footer
+}
+
+
+

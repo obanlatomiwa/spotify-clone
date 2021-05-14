@@ -1,0 +1,19 @@
+.map-div{
+    @include c-flex-row;
+    flex-wrap: wrap;
+
+    .map{
+        margin-right: 4rem;
+        padding: 1.6rem;
+        .map-icon{
+            height: 11.8rem;
+            fill: $color-label;
+        }
+
+        .map-icon:hover{
+            fill: $color-placeholder;
+        }
+    }
+
+    
+}

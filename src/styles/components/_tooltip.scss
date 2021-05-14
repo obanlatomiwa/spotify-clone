@@ -1,0 +1,66 @@
+.t-tip {
+  position: relative;
+  display: inline-block;
+  border-bottom: .1rem dotted $color-body;
+  cursor: pointer;
+
+  @mixin tooltipcontent{
+    visibility: hidden;
+    width: 120px;
+    background-color: $color-input-background;
+    color: $color-body;
+    text-align: center;
+    @include border-radius;
+    padding: .8rem;
+    position: absolute;
+    z-index: 1;
+    cursor: pointer;
+  }
+
+  &__tright {
+      @include tooltipcontent;
+     /* Position the t_tip */
+     top: -.8rem;
+     left: 105%;
+  }
+
+  &__tleft {
+    @include tooltipcontent;
+     /* Position the t_tip */
+     top: -.8rem;
+     right: 105%;
+  }
+
+  &__top {
+    @include tooltipcontent;
+     /* Position the t_tip */
+     bottom: 132%;
+     left: 50%;
+     margin-left: -60px
+  }
+
+  &__bottom {
+    @include tooltipcontent;
+     /* Position the t_tip */
+     top: 132%;
+     left: 50%;
+     margin-left: -60px
+  }
+ 
+}
+
+.t-tip:hover .t-tip__tright{
+  visibility: visible;
+}
+
+.t-tip:hover .t-tip__tleft {
+  visibility: visible;
+}
+
+.t-tip:hover .t-tip__top {
+  visibility: visible;
+}
+
+.t-tip:hover .t-tip__bottom {
+  visibility: visible;
+}

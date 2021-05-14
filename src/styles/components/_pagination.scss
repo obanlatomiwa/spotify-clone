@@ -1,0 +1,146 @@
+.pagination{
+    @include border-radius;
+    background: $color-input-background;
+    padding: 1.6rem;
+    display: flex;
+    justify-content: space-between;
+    
+
+    &__status{
+        align-self: center;
+        display: flex;
+        span{
+            color: $color-secondary;
+        }
+    }
+    &__btn{
+        display: flex;
+        align-self: center;
+        cursor: pointer;
+        .select-left{
+            fill: $color-body;
+            height: 2.4rem;
+            transform: rotate(90deg);
+        }
+        .select-right{
+            fill: $color-secondary;
+            height: 2.4rem;
+            transform: rotate(270deg);
+        }
+        .select-right:hover{
+            fill: $color-Secondary-dark;
+        }
+
+        .pagination-menu{
+            margin: 0 .8rem;
+
+        }
+        .pagination-menu:hover{
+            color: $color-secondary;
+            text-decoration: underline;
+        }
+    }
+    &__select{
+        display: flex;
+        cursor: pointer;
+        p{
+            align-self: center;
+        }
+        .select{
+            align-self: center;
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .pagination{
+        flex-direction: column;
+
+        &__btn{
+            margin-top: 2.4rem;
+            margin-bottom: 2.4rem;
+            align-self: flex-start;
+        }
+    }
+  }
+
+
+//   Pagination 2
+
+.pagination2{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 1.6rem;
+    @include border-radius;
+    background: $color-input-background;
+    // justify-content: space-between;
+
+    .page-control-left{
+        display: flex;
+        align-self: center;
+        
+        .icon{
+            fill: $color-body;
+            height: 2.4rem;
+            transform: rotate(90deg);
+        }
+    }
+    .page-control-left:hover{
+        cursor: pointer;
+        background: $color-background;
+        width: 30%;
+        @include border-radius;
+        .icon{
+            fill: $color-secondary;
+        }
+    }
+    .page-control-center{
+        justify-self: center;
+        display: flex;
+        align-self: center;
+
+        .page-single{
+            border-radius: 50%;
+            cursor: pointer;
+            width: 3.2rem;
+            height: 3.2rem;
+            padding: .8rem;
+            margin: .4rem;
+            align-items: center;
+            display: flex;
+            justify-content: center;
+        }
+        .page-single:hover{
+            p{
+                text-decoration: underline;
+            }
+        }
+        .active-page{
+            background: $color-secondary;
+            p{
+                color: $color-white;
+            }
+        }
+    }
+
+    .page-control-right{
+        justify-self: end;
+        display: flex;
+        align-self: center;
+        .icon{
+            fill: $color-body;
+            height: 2.4rem;
+            transform: rotate(270deg);
+        }
+    }
+
+    .page-control-right:hover{
+        cursor: pointer;
+        background: $color-background;
+        @include border-radius;
+        .icon{
+            fill: $color-secondary;
+        }
+    }
+}
+

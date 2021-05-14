@@ -1,0 +1,263 @@
+
+
+.colour-row{
+    @include c-flex-row;
+    flex-wrap: wrap;
+
+    &__card{
+        width: 27.5rem;
+        height: 36.0rem;
+        background: $color-background;
+        @include shadow-large;
+        @include border-radiusb;
+        margin: .8rem;
+
+        .colour-content{
+            P{
+                margin-bottom: 0 !important;
+            }
+        }
+
+        .colour-box-tb{
+            background: $color-title-active;
+            height: 22rem;
+            width: 27.5rem;
+            border-radius: 3.2rem
+        }
+
+        .colour-box-b{
+            background: $color-body;
+            height: 22rem;
+            width: 27.5rem;
+            border-radius: 3.2rem
+        }
+
+        .colour-box-l{
+            background: $color-label;
+            height: 22rem;
+            width: 27.5rem;
+            border-radius: 3.2rem
+        }
+
+        .colour-box-p{
+            background: $color-placeholder;
+            height: 22rem;
+            width: 27.5rem;
+            border-radius: 3.2rem
+        }
+
+        .colour-box-ll{
+            background: $color-line;
+            height: 22rem;
+            width: 27.5rem;
+            border-radius: 3.2rem
+        }
+
+        .colour-box-ib{
+            background: $color-input-background;
+            height: 22rem;
+            width: 27.5rem;
+            border-radius: 3.2rem
+        }
+
+        .colour-box-bb{
+            background: $color-background;
+            height: 22rem;
+            width: 27.5rem;
+            border-radius: 3.2rem
+        }
+        .colour-box-ow{
+            background: $color-off-white;
+            height: 22rem;
+            width: 27.5rem;
+            border-radius: 3.2rem
+        }
+
+        .colour-box-pd{
+            background: $color-primary;
+            height: 22rem;
+            width: 27.5rem;
+            border-radius: 3.2rem
+        }
+
+        .colour-box-p-dark{
+            background: $color-Primary-dark;
+            height: 22rem;
+            width: 27.5rem;
+            border-radius: 3.2rem
+        }
+
+        .colour-box-pdm{
+            background: $color-Primary-darkmode;
+            height: 22rem;
+            width: 27.5rem;
+            border-radius: 3.2rem
+        }
+
+        .colour-box-pl{
+            background: $color-Primary-light;
+            height: 22rem;
+            width: 27.5rem;
+            border-radius: 3.2rem
+        }
+
+        .colour-box-pbg{
+            background: $color-Primary-bg;
+            height: 22rem;
+            width: 27.5rem;
+            border-radius: 3.2rem
+        }
+
+        // Secondary
+
+        .colour-box-sd{
+            background: $color-secondary;
+            height: 22rem;
+            width: 27.5rem;
+            border-radius: 3.2rem
+        }
+
+        .colour-box-s-dark{
+            background: $color-Secondary-dark;
+            height: 22rem;
+            width: 27.5rem;
+            border-radius: 3.2rem
+        }
+
+        .colour-box-sdm{
+            background: $color-Secondary-darkmode;
+            height: 22rem;
+            width: 27.5rem;
+            border-radius: 3.2rem
+        }
+
+        .colour-box-sl{
+            background: $color-Secondary-light;
+            height: 22rem;
+            width: 27.5rem;
+            border-radius: 3.2rem
+        }
+
+        .colour-box-sbg{
+            background: $color-Secondary-bg;
+            height: 22rem;
+            width: 27.5rem;
+            border-radius: 3.2rem
+        }
+
+         // Error
+
+         .colour-box-ed{
+            background: $color-error;
+            height: 22rem;
+            width: 27.5rem;
+            border-radius: 3.2rem
+        }
+
+        .colour-box-e-dark{
+            background: $color-error-dark;
+            height: 22rem;
+            width: 27.5rem;
+            border-radius: 3.2rem
+        }
+
+        .colour-box-edm{
+            background: $color-error-darkmode;
+            height: 22rem;
+            width: 27.5rem;
+            border-radius: 3.2rem
+        }
+
+        .colour-box-el{
+            background: $color-error-light;
+            height: 22rem;
+            width: 27.5rem;
+            border-radius: 3.2rem
+        }
+
+        .colour-box-ebg{
+            background: $color-error-bg;
+            height: 22rem;
+            width: 27.5rem;
+            border-radius: 3.2rem
+        }
+
+        // Warning
+
+        .colour-box-wd{
+            background: $color-warning;
+            height: 22rem;
+            width: 27.5rem;
+            border-radius: 3.2rem
+        }
+
+        .colour-box-w-dark{
+            background: $color-warning-dark;
+            height: 22rem;
+            width: 27.5rem;
+            border-radius: 3.2rem
+        }
+
+        .colour-box-wdm{
+            background: $color-warning-darkmode;
+            height: 22rem;
+            width: 27.5rem;
+            border-radius: 3.2rem
+        }
+
+        .colour-box-wl{
+            background: $color-warning-light;
+            height: 22rem;
+            width: 27.5rem;
+            border-radius: 3.2rem
+        }
+
+        .colour-box-wbg{
+            background: $color-warning-bg;
+            height: 22rem;
+            width: 27.5rem;
+            border-radius: 3.2rem
+        }
+
+        // Success
+
+        .colour-box-ssd{
+            background: $color-success;
+            height: 22rem;
+            width: 27.5rem;
+            border-radius: 3.2rem
+        }
+
+        .colour-box-ss-dark{
+            background: $color-success-dark;
+            height: 22rem;
+            width: 27.5rem;
+            border-radius: 3.2rem
+        }
+
+        .colour-box-ssdm{
+            background: $color-success-darkmode;
+            height: 22rem;
+            width: 27.5rem;
+            border-radius: 3.2rem
+        }
+
+        .colour-box-ssl{
+            background: $color-success-light;
+            height: 22rem;
+            width: 27.5rem;
+            border-radius: 3.2rem
+        }
+
+        .colour-box-ssbg{
+            background: $color-success-bg;
+            height: 22rem;
+            width: 27.5rem;
+            border-radius: 3.2rem
+        }
+
+        .colour-content{
+            padding: 1.6rem;
+        }
+    }
+}

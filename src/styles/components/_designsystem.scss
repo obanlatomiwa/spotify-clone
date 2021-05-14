@@ -1,0 +1,203 @@
+@mixin border-btm{
+    border-bottom: .1rem solid $color-label;
+}
+
+@mixin component-spacing{
+    margin-top: 10rem;
+}
+
+.sidenav{
+        width: 18%;
+        height: 100%;
+        background-color: $color-background;
+        position: fixed;
+        height: 100%;
+        overflow: auto;
+
+        border-right: .1rem solid $color-label;
+
+        &__logo{
+            height: 7rem;
+            text-align: center;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: fixed; 
+            width: 100%;
+            img{
+                width: 25rem;
+                align-self: center;
+            }
+
+            background-color: $color-body;
+        }
+
+        // Sidebar links (Navigation)
+
+        .sidebar-active{
+            transform: translateX(0);
+          }
+          .sidebar{
+            @include component-spacing;
+
+            li{
+              list-style: none;
+            }
+        
+            a {
+              display: block;
+              color: $color-body;
+              padding: 1.6rem;
+              text-decoration: none;
+            }
+        
+            a.active {
+              background-color: $color-placeholder;
+              color: $color-body;
+              width: 90%;
+              border-radius: 0 30rem 30rem 0;
+              
+            }
+            
+            a:hover:not(.active) {
+              background-color: $color-input-background;
+              color: $color-body;
+              width: 90%;
+              border-radius: 0 30rem 30rem 0;
+            }
+        
+        
+          }
+}
+// Components
+.contents{
+        background-color: $color-background;
+        margin-left: 18%;
+        overflow-wrap: anywhere;
+        
+
+        &__header{
+            height: 7rem;
+            background-color: $color-body;
+            position: fixed; 
+            top: 0; 
+            z-index: 4;
+
+            display: flex;
+            flex-direction: row-reverse;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+            
+          
+            .input-init-ic{
+                margin-right: 30rem !important;
+                padding: 1.2rem !important;
+                width: 30rem;
+                
+                .input-icon{
+                    fill: $color-white !important;
+                }
+            }
+          }
+
+        //   Components starts
+        &__components{
+            @include component-spacing;
+            
+            padding: 0 3.2rem;
+        }
+
+}
+
+
+@media screen and (max-width: 768px){
+   
+
+        .sidenav{
+            width: 100% !important;
+            height: auto;
+            position: relative !important;  
+            display: none;
+        }
+        .contents{
+            margin-left: 0 !important;
+            // position: absolute;
+        }
+}
+
+@media screen and (max-width: 1024px) {
+   
+
+    .sidenav{
+        width: 100% !important;
+        height: auto;
+        position: relative !important;  
+    }
+    .contents{
+        margin-left: 0 !important;
+    }
+}
+
+
+ // Hamburger for mobile
+ .burger{
+    display: none;
+    cursor: pointer;
+    margin-right: 3.2rem;
+
+    div{
+      width: 2.5rem;
+      height: .2rem;
+      background-color: $color-background;
+      margin: .5rem;
+      transition: all 0.3s ease;
+    }
+  }
+
+
+// Component Sidebar
+
+@keyframes navLinkFade{
+    from{
+      opacity: 0;
+      transform: translateX(50px);
+    }
+  
+    to{
+      opacity: 1;
+      transform: translateX(0px);
+    }
+  }
+  
+  .toggle .line1{
+    transform: rotate(-45deg) translate(-5px, 6px);
+  }
+  
+  .toggle .line2{
+    opacity: 0;
+  }
+  
+  .toggle .line3{
+    transform: rotate(45deg) translate(-5px, -6px);
+  }
+
+
+  @media screen and (max-width: 768px) {
+    .sidebar{
+        background: $color-primary;
+        transform: translateX(-100%);
+        transition: transform 0.5s ease-in;
+        width: 70%;
+    
+        li{
+          opacity: 0;
+        }
+      }
+    
+      .burger{
+        display: block;
+      }
+    
+
+  }

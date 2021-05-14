@@ -1,0 +1,27 @@
+.flex-container{
+    display: flex;
+    justify-content: space-between;
+
+    div{
+        background-color: $color-placeholder;
+        padding: 2.4rem;
+        @include border-radius;
+        height: 20rem;
+        width: 100%;
+        margin: 1.6rem;
+
+    }
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+
+    // div{
+    //     background-color: $color-placeholder;
+    //     padding: 2.4rem;
+    //     @include border-radius;
+    //     height: 20rem;
+    //     margin: 1.6rem;
+    // }
+}

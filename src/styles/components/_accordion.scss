@@ -1,0 +1,39 @@
+.accordion {
+    background-color: $color-background;
+    @include border;
+    @include border-radius;
+    margin: .5rem 0;
+    color: $color-body;
+    cursor: pointer;
+    padding: 18px;
+    width: 60rem;
+    text-align: left;
+    outline: none;
+    transition: 0.4s;
+  }
+  
+  .active, .accordion:hover {
+    background-color: $color-input-background;
+  }
+  
+  .accordion:after {
+    content: '\002B';
+    color: $color-body;
+    font-weight: bold;
+    float: right;
+    margin-left: .5rem
+  }
+  
+  .active:after {
+    content: "\2212";
+  }
+  
+  .panel {
+    padding: 0 1.8rem;
+    width: 60rem;
+    @include border-radius;
+    background-color: $color-input-background;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+  }

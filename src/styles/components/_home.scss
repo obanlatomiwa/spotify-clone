@@ -1,0 +1,145 @@
+.header{
+    height: 60vh;
+    background-image: 
+    // linear-gradient( 
+    //     to right bottom, 
+    //     rgba($color-primary-light, 0.8), 
+    //     rgba($color-primary-dark, 0.8)), 
+    // url(/src/assets/header-bg.png);
+    url('~@/assets/header-bg.png');
+    background-color: #cccccc
+
+    ;
+    background-size: cover;
+    background-position: top;
+      position: relative;
+
+    &__content{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        align-items: flex-start;
+
+        img{
+            height: 11.7rem;
+            // width: 54.6rem;
+        }
+        h2{
+           font-size: 7.1rem;
+            color: $color-off-white;
+        }
+
+    }
+
+}
+@media only screen and (max-width:425px) {
+
+    .header{
+        &__content{
+            img{
+                height: 5.2rem;
+            }
+        }
+    }
+}
+
+@mixin label-cnt {
+    @include border-radius;
+    height: 6.8rem;
+    width: 6.8rem;
+    position: relative;
+}
+
+.system-menu {
+
+    &__wrapper{
+        @include c-flex-row;
+
+        .menu1{
+            flex: 1;
+            padding-right: 2.4rem;
+
+            &__label{
+                background: rgba($color-body, 0.1);
+                @include label-cnt;
+
+                h5{
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                    text-align: center;
+                }
+            }
+        }
+    
+        .menu2{
+            flex: 1;
+            padding-right: 2.4rem;
+
+            &__label{
+                background: rgba($color-primary, 0.1);
+                @include label-cnt;
+
+                h5{
+                    color: $color-primary;
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                    text-align: center;
+                }
+            }
+        }
+
+        .menu3{
+            flex: 1;
+            padding-right: 2.4rem;
+
+            &__label{
+                background: rgba($color-secondary, 0.1);
+                @include label-cnt;
+
+                h5{
+                    color: $color-secondary;
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                    text-align: center;
+                }
+            }
+        }
+
+        .menu4{
+            flex: 1;
+            padding-right: 2.4rem;
+
+            &__label{
+                background: rgba($color-error, 0.1);
+                @include label-cnt;
+
+                h5{
+                    color: $color-error;
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                    text-align: center;
+                }
+            }
+        }
+    }
+
+  
+}
+
+
+.home-btn{
+    text-align: center;
+}

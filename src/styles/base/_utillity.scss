@@ -1,0 +1,115 @@
+.pd-t-lg{
+    padding-top: 3.2rem;
+}
+
+/* Spacing */
+
+// padding
+.pt-lg{
+    padding-top: 3.2rem;
+}
+.pt-md{
+    padding-top: 2.4rem;
+}
+.pt-sm{
+    padding-top: 1.6rem;
+}
+
+.pb-lg{
+    padding-bottom: 3.2rem;
+}
+.pb-md{
+    padding-bottom: 2.4rem;
+}
+.pb-sm{
+    padding-bottom: 1.6rem;
+}
+
+// Margin
+
+// top
+
+.mt-lg{
+    margin-top: 3.2rem;
+}
+.mt-md{
+    margin-top: 2.4rem;
+}
+.mt-sm{
+    margin-top: 1.6rem;
+}
+// bottom
+.mb-lg{
+    margin-bottom: 3.2rem;
+}
+.mb-md{
+    margin-bottom: 2.4rem;
+}
+.mb-sm{
+    margin-bottom: 1.6rem;
+}
+
+// right
+.mr-lg{
+    margin-right: 3.2rem;
+}
+.mr-md{
+    margin-right: 2.4rem;
+}
+.mr-sm{
+    margin-right: 1.6rem;
+}
+
+// left
+.ml-lg{
+    margin-left: 3.2rem;
+}
+.ml-md{
+    margin-left: 2.4rem;
+}
+.ml-sm{
+    margin-left: 1.6rem;
+}
+
+// @media (max-width: 600px) {
+//     .copy-div { 
+//         &__code-div{
+//             // display: grid;
+//             flex-direction: column;
+//     }
+    
+//     }
+//   }
+
+// Code Snippet Copy
+.copy-div{
+    .copy-header{
+        color: $color-label;
+    }
+
+    &__code-div{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 2.4rem;
+
+        .html-div, .css-div{
+            @include border-radius;
+            @include padding-lg;
+            @include border;
+            padding: 1.6rem;
+            background-color: $color-Primary-bg;
+        }
+        
+    }
+    code {
+        font-family: Consolas,"courier new";
+        color: $color-error;
+      }
+
+      pre, code{
+        white-space: pre-line;
+        max-width: 100%;
+        overflow: hidden;
+    }
+}
+

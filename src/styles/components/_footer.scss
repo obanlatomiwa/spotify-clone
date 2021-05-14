@@ -1,0 +1,38 @@
+.footer1 {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background: $color-body;
+    padding: 1.6rem 2.4rem;
+    text-align: left;
+    color: $color-off-white;
+
+    p{
+        margin-bottom: 0;
+
+        span{
+            color: $color-error;
+        }
+    }
+}
+
+.footer2{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background: $color-background;
+    border-top: .1rem solid $color-label;
+    padding: 1.6rem 2.4rem;
+    text-align: right;
+    color: $color-off-white;
+    z-index: 5;
+
+    p{
+        margin-bottom: 0;
+        color: $color-body;
+
+        span{
+            color: $color-error;
+        }
+    }
+}

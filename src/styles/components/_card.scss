@@ -1,0 +1,24 @@
+.card-box{
+    width: 30rem;
+    height: 25rem;
+    @include padding-sm;
+    @include border-radius;
+    background: $color-white;
+
+    .card-title{
+        display: flex;
+        flex-direction: row; 
+        justify-content: space-between;
+
+        p{
+            color: $color-label;
+        }
+
+        .icon-cardbox{
+            fill: $color-secondary;
+            height: 2.4rem;
+        }
+
+    }
+
+}

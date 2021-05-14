@@ -1,0 +1,36 @@
+.table-container{
+    background: $color-white;
+    padding: 1.6rem;
+    @include border-radius;
+}
+
+table{
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    table-layout: auto;
+
+
+    th, td {
+        padding: 1.6rem;
+        text-align: left;
+    }
+    tbody{
+        overflow-x: auto;
+    }
+    th{
+        background: $color-input-background;
+        @include typo-ls;
+    }
+    td{
+        @include typo-ts;
+    }
+    tbody tr:nth-child(odd) {
+        background: $color-background;
+      }
+      tbody tr:nth-child(even) {
+        background: $color-input-background;
+      }
+
+    
+}
