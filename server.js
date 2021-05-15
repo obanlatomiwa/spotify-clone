@@ -2,9 +2,6 @@ const express = require("express");
 const path = require("path");
 const serveStatic = require("serve-static");
 
-const dotenv = require("dotenv");
-
-dotenv.config({ path: "../.env" });
 
 const app = express();
 
