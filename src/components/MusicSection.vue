@@ -142,7 +142,8 @@
             </div>
           </div>
         </div>
-      </div><div>
+      </div>
+      <div>
         <div class="info-box-m">
           <div class="card-title-m">
             <div class="lx-s-m">
@@ -165,7 +166,8 @@
             </div>
           </div>
         </div>
-      </div><div>
+      </div>
+      <div>
         <div class="info-box-m">
           <div class="card-title-m">
             <div class="lx-s-m">
@@ -309,8 +311,7 @@ export default {
   padding: 0px;
   overflow-y: auto;
   overflow-x: hidden;
-  background-color:#121212;
-
+  background-color: #121212;
 
   a {
     color: white;
@@ -346,12 +347,11 @@ export default {
   .welcome {
     padding-bottom: 16px;
     width: 100%;
-    // height: 30vh;
-    background: transparent;
+    background-color: #053E27;
+    // background: transparent;
     grid-gap: 24px;
     display: grid;
     margin: 0;
-    // max-width: 1955px;
     padding: 16px;
     padding-right: 20px;
     margin-bottom: 6px;
@@ -499,7 +499,7 @@ export default {
   isolation: isolate;
   padding: 16px;
   position: relative;
-  width: 100%;
+  width: 80%;
   margin: 16px 0px;
 
   .card-title-m {
