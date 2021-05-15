@@ -6,20 +6,20 @@
         <div class="info-box">
           <div class="card-title">
             <div class="lx-s">
-              <img src="../assets/FCMB.png" alt="card-img" />
+              <img src="../assets/nicki-beam.png" alt="card-img" />
             </div>
             <div class="lm">
-              <a href=""><p>Rap UK</p></a>
+              <a href=""><p>Beam me up Scotty</p></a>
             </div>
           </div>
         </div>
         <div class="info-box">
           <div class="card-title">
             <div class="lx-s">
-              <img src="../assets/FCMB.png" alt="card-img" />
+              <img src="../assets/robin.png" alt="card-img" />
             </div>
             <div class="lm">
-              <a href=""><p>Rap UK</p></a>
+              <a href=""><p>Robin Schulz</p></a>
             </div>
           </div>
         </div>
@@ -28,42 +28,42 @@
         <div class="info-box">
           <div class="card-title">
             <div class="lx-s">
-              <img src="../assets/FCMB.png" alt="card-img" />
+              <img src="../assets/off-season.png" alt="card-img" />
             </div>
             <div class="lm">
-              <a href=""><p>Rap UK</p></a>
+              <a href=""><p>The Off-Season</p></a>
             </div>
           </div>
         </div>
         <div class="info-box">
           <div class="card-title">
             <div class="lx-s">
-              <img src="../assets/FCMB.png" alt="card-img" />
+              <img src="../assets/pop.png" alt="card-img" />
+            </div>
+            <div class="lm">
+              <a href=""><p>Pop Music 2021</p></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div class="info-box">
+          <div class="card-title">
+            <div class="lx-s">
+              <img src="../assets/top-100.png" alt="card-img" />
             </div>
             <div class="lm">
               <a href=""><p>Nigerian Top 100</p></a>
             </div>
           </div>
         </div>
-      </div>
-      <div>
         <div class="info-box">
           <div class="card-title">
             <div class="lx-s">
-              <img src="../assets/FCMB.png" alt="card-img" />
+              <img src="../assets/evolution.png" alt="card-img" />
             </div>
             <div class="lm">
-              <a href=""><p>Rap UK</p></a>
-            </div>
-          </div>
-        </div>
-        <div class="info-box">
-          <div class="card-title">
-            <div class="lx-s">
-              <img src="../assets/FCMB.png" alt="card-img" />
-            </div>
-            <div class="lm">
-              <a href=""><p>Nicki Minaj</p></a>
+              <a href=""><p>Lucas</p></a>
             </div>
           </div>
         </div>
@@ -72,20 +72,20 @@
         <div class="info-box">
           <div class="card-title">
             <div class="lx-s">
-              <img src="../assets/FCMB.png" alt="card-img" />
+              <img src="../assets/yanni-pic.png" alt="card-img" />
             </div>
             <div class="lm">
-              <a href=""><p>Rap UK</p></a>
+              <a href=""><p>Yanni</p></a>
             </div>
           </div>
         </div>
         <div class="info-box">
           <div class="card-title">
             <div class="lx-s">
-              <img src="../assets/FCMB.png" alt="card-img" />
+              <img src="../assets/rap-uk.png" alt="card-img" />
             </div>
             <div class="lm">
-              <a href=""><p>Queen</p></a>
+              <a href=""><p>Rap UK</p></a>
             </div>
           </div>
         </div>
@@ -99,46 +99,22 @@
         <div class="info-box-m">
           <div class="card-title-m">
             <div class="lx-s-m">
-              <img src="../assets/FCMB.png" alt="card-img" />
+              <img src="../assets/yanni-artist.png" alt="card-img" />
             </div>
             <div class="lm-m">
-              <a href="" class="card-big-title"><div>Rap UK</div></a>
-              <div class="description">Description</div>
+              <a href="" class="card-big-title"><div>Yanni</div></a>
+              <div class="description">Artist</div>
             </div>
           </div>
         </div>
         <div class="info-box-m">
           <div class="card-title-m">
             <div class="lx-s-m">
-              <img src="../assets/FCMB.png" alt="card-img" />
+              <img src="../assets/scotty.png" alt="card-img" />
             </div>
             <div class="lm-m">
-              <a href="" class="card-big-title"><div>Rap UK</div></a>
-              <div class="description">Description</div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div>
-        <div class="info-box-m">
-          <div class="card-title-m">
-            <div class="lx-s-m">
-              <img src="../assets/FCMB.png" alt="card-img" />
-            </div>
-            <div class="lm-m">
-              <a href="" class="card-big-title"><div>Rap UK</div></a>
-              <div class="description">Description</div>
-            </div>
-          </div>
-        </div>
-        <div class="info-box-m">
-          <div class="card-title-m">
-            <div class="lx-s-m">
-              <img src="../assets/FCMB.png" alt="card-img" />
-            </div>
-            <div class="lm-m">
-              <a href="" class="card-big-title"><div>Rap UK</div></a>
-              <div class="description">Description</div>
+              <a href="" class="card-big-title"><div>Beam Me Up Scotty</div></a>
+              <div class="description">Nicki Minaj</div>
             </div>
           </div>
         </div>
@@ -147,22 +123,22 @@
         <div class="info-box-m">
           <div class="card-title-m">
             <div class="lx-s-m">
-              <img src="../assets/FCMB.png" alt="card-img" />
+              <img src="../assets/shazam-track.png" alt="card-img" />
             </div>
             <div class="lm-m">
-              <a href="" class="card-big-title"><div>Rap UK</div></a>
-              <div class="description">Description</div>
+              <a href="" class="card-big-title"><div>My Shazam Tracks</div></a>
+              <div class="description">By TommyWayne</div>
             </div>
           </div>
         </div>
         <div class="info-box-m">
           <div class="card-title-m">
             <div class="lx-s-m">
-              <img src="../assets/FCMB.png" alt="card-img" />
+              <img src="../assets/queen.png" alt="card-img" />
             </div>
             <div class="lm-m">
-              <a href="" class="card-big-title"><div>Rap UK</div></a>
-              <div class="description">Description</div>
+              <a href="" class="card-big-title"><div>queen</div></a>
+              <div class="description">Nicki Minaj</div>
             </div>
           </div>
         </div>
@@ -171,22 +147,70 @@
         <div class="info-box-m">
           <div class="card-title-m">
             <div class="lx-s-m">
-              <img src="../assets/FCMB.png" alt="card-img" />
+              <img src="../assets/rap.png" alt="card-img" />
             </div>
             <div class="lm-m">
               <a href="" class="card-big-title"><div>Rap UK</div></a>
-              <div class="description">Description</div>
+              <div class="description">The finest in UK rap. Cover: K-Trap</div>
             </div>
           </div>
         </div>
         <div class="info-box-m">
           <div class="card-title-m">
             <div class="lx-s-m">
-              <img src="../assets/FCMB.png" alt="card-img" />
+              <img src="../assets/jcole.png" alt="card-img" />
             </div>
             <div class="lm-m">
-              <a href="" class="card-big-title"><div>Rap UK</div></a>
-              <div class="description">Description</div>
+              <a href="" class="card-big-title"><div>The Off-Season</div></a>
+              <div class="description">J. Cole</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div class="info-box-m">
+          <div class="card-title-m">
+            <div class="lx-s-m">
+              <img src="../assets/evolution.png" alt="card-img" />
+            </div>
+            <div class="lm-m">
+              <a href="" class="card-big-title"><div>Evolution</div></a>
+              <div class="description">Joyner Lucas</div>
+            </div>
+          </div>
+        </div>
+        <div class="info-box-m">
+          <div class="card-title-m">
+            <div class="lx-s-m">
+              <img src="../assets/sleep.png" alt="card-img" />
+            </div>
+            <div class="lm-m">
+              <a href="" class="card-big-title"><div>Deep Sleep</div></a>
+              <div class="description">Soothing, minimalist, ambient for deep sleep.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div class="info-box-m">
+          <div class="card-title-m">
+            <div class="lx-s-m">
+              <img src="../assets/nigeria.png" alt="card-img" />
+            </div>
+            <div class="lm-m">
+              <a href="" class="card-big-title"><div>Nigerian Top 100</div></a>
+              <div class="description">The most-played songs in Nigeria, updated every...</div>
+            </div>
+          </div>
+        </div>
+        <div class="info-box-m">
+          <div class="card-title-m">
+            <div class="lx-s-m">
+              <img src="../assets/kamuu.png" alt="card-img" />
+            </div>
+            <div class="lm-m">
+              <a href="" class="card-big-title"><div>KAMAUU</div></a>
+              <div class="description">Artist</div>
             </div>
           </div>
         </div>
@@ -200,46 +224,22 @@
         <div class="info-box-m">
           <div class="card-title-m">
             <div class="lx-s-m">
-              <img src="../assets/FCMB.png" alt="card-img" />
+              <img src="../assets/mix1.png" alt="card-img" />
             </div>
             <div class="lm-m">
-              <a href="" class="card-big-title"><div>Rap UK</div></a>
-              <div class="description">Description</div>
+              <a href="" class="card-big-title"><div>Daily Mix 1</div></a>
+              <div class="description">J. Cole, Ty Dolla Sign, Tee Grizzley and more</div>
             </div>
           </div>
         </div>
         <div class="info-box-m">
           <div class="card-title-m">
             <div class="lx-s-m">
-              <img src="../assets/FCMB.png" alt="card-img" />
+              <img src="../assets/no-cap.png" alt="card-img" />
             </div>
             <div class="lm-m">
-              <a href="" class="card-big-title"><div>Rap UK</div></a>
-              <div class="description">Description</div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div>
-        <div class="info-box-m">
-          <div class="card-title-m">
-            <div class="lx-s-m">
-              <img src="../assets/FCMB.png" alt="card-img" />
-            </div>
-            <div class="lm-m">
-              <a href="" class="card-big-title"><div>Rap UK</div></a>
-              <div class="description">Description</div>
-            </div>
-          </div>
-        </div>
-        <div class="info-box-m">
-          <div class="card-title-m">
-            <div class="lx-s-m">
-              <img src="../assets/FCMB.png" alt="card-img" />
-            </div>
-            <div class="lm-m">
-              <a href="" class="card-big-title"><div>Rap UK</div></a>
-              <div class="description">Description</div>
+              <a href="" class="card-big-title"><div>No Cap</div></a>
+              <div class="description">The soundtrack to your turn up. Cover: J Cole</div>
             </div>
           </div>
         </div>
@@ -248,22 +248,22 @@
         <div class="info-box-m">
           <div class="card-title-m">
             <div class="lx-s-m">
-              <img src="../assets/FCMB.png" alt="card-img" />
+              <img src="../assets/mix2.png" alt="card-img" />
             </div>
             <div class="lm-m">
-              <a href="" class="card-big-title"><div>Rap UK</div></a>
-              <div class="description">Description</div>
+              <a href="" class="card-big-title"><div>Daily Mix 2</div></a>
+              <div class="description">Robin Schulz, Jax Jones, Lexer and more</div>
             </div>
           </div>
         </div>
         <div class="info-box-m">
           <div class="card-title-m">
             <div class="lx-s-m">
-              <img src="../assets/FCMB.png" alt="card-img" />
+              <img src="../assets/rap-workout.png" alt="card-img" />
             </div>
             <div class="lm-m">
-              <a href="" class="card-big-title"><div>Rap UK</div></a>
-              <div class="description">Description</div>
+              <a href="" class="card-big-title"><div>Rap Workout</div></a>
+              <div class="description">Big rap for big reps. You got this</div>
             </div>
           </div>
         </div>
@@ -272,22 +272,70 @@
         <div class="info-box-m">
           <div class="card-title-m">
             <div class="lx-s-m">
-              <img src="../assets/FCMB.png" alt="card-img" />
+              <img src="../assets/mix3.png" alt="card-img" />
             </div>
             <div class="lm-m">
-              <a href="" class="card-big-title"><div>Rap UK</div></a>
-              <div class="description">Description</div>
+              <a href="" class="card-big-title"><div>Daily Mix 3</div></a>
+              <div class="description">Hozier, Elevation Worship, JJ Heller and...</div>
             </div>
           </div>
         </div>
         <div class="info-box-m">
           <div class="card-title-m">
             <div class="lx-s-m">
-              <img src="../assets/FCMB.png" alt="card-img" />
+              <img src="../assets/power-gaming.png" alt="card-img" />
+            </div>
+            <div class="lm-m">
+              <a href="" class="card-big-title"><div>Power Gaming</div></a>
+              <div class="description">Get your gaming session going with this rap...</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div class="info-box-m">
+          <div class="card-title-m">
+            <div class="lx-s-m">
+              <img src="../assets/mix4.png" alt="card-img" />
+            </div>
+            <div class="lm-m">
+              <a href="" class="card-big-title"><div>Daily Mix 4</div></a>
+              <div class="description">Alessia Cara, Jon Bellion, Ariana Grande and more</div>
+            </div>
+          </div>
+        </div>
+        <div class="info-box-m">
+          <div class="card-title-m">
+            <div class="lx-s-m">
+              <img src="../assets/hip-hop.png" alt="card-img" />
             </div>
             <div class="lm-m">
               <a href="" class="card-big-title"><div>Rap UK</div></a>
-              <div class="description">Description</div>
+              <div class="description">Pass the sticks & press play.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div class="info-box-m">
+          <div class="card-title-m">
+            <div class="lx-s-m">
+              <img src="../assets/mix5.png" alt="card-img" />
+            </div>
+            <div class="lm-m">
+              <a href="" class="card-big-title"><div>Daily Mix 5</div></a>
+              <div class="description">Poly G, Ugly god, Dax and more</div>
+            </div>
+          </div>
+        </div>
+        <div class="info-box-m">
+          <div class="card-title-m">
+            <div class="lx-s-m">
+              <img src="../assets/locked-in.png" alt="card-img" />
+            </div>
+            <div class="lm-m">
+              <a href="" class="card-big-title"><div>Locked In</div></a>
+              <div class="description">Fourth quarter, two minutes left .. get locke..</div>
             </div>
           </div>
         </div>
@@ -370,7 +418,7 @@ export default {
       padding: 0;
       background-color: hsla(0, 0%, 100%, 0.1);
       border-radius: 4px;
-      height: 100px;
+      height: 87px;
       position: relative;
       display: flex;
       flex-direction: row;
@@ -384,7 +432,6 @@ export default {
         .lx-s {
           min-height: 80px;
           min-width: 80px;
-          background-color: hsla(0, 0%, 100%, 0.2);
           border-radius: 4px;
           // padding-bottom: 100%;
           position: relative;
@@ -466,7 +513,7 @@ export default {
   }
   .recent-played {
     grid-template-rows: 5% 45% 50%;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(5, 1fr);
     grid-gap: 24px;
     display: grid;
     margin: 0;
@@ -484,7 +531,7 @@ export default {
     max-width: 1955px;
     padding: 16px;
     grid-template-rows: 5% 45% 55%;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(5, 1fr);
 
     .card-header {
       grid-column: 1/ -1;

@@ -17,11 +17,11 @@
           <a href=""><span> Your Library </span></a>
         </li>
       </ul>
-      <div>
-        <hr />
-        <div></div>
-      </div>
+
       <ul>
+        <li>
+          <a href="" class="playlist"><span > PLAYLISTS </span></a>
+        </li>
         <li>
           <a href=""><span> Create Playlist </span></a>
         </li>
@@ -29,7 +29,12 @@
           <a href=""><span> Liked Songs </span></a>
         </li>
       </ul>
+      <div>
+        <hr />
+        <div></div>
+      </div>
     </div>
+
     <div class="recent-played">
       <ul>
         <li>
@@ -187,7 +192,7 @@ export default {};
             display: flex;
             color: #b3b3b3;
             text-decoration: none;
-            background-color: #282828;
+            // background-color: #282828;
           }
 
           div {
@@ -262,7 +267,20 @@ export default {};
     }
   }
 }
-div {
-  // background: grey;
+.playlist {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  padding-top: 30px;
+  padding-bottom: 10px;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: normal;
+  line-height: 16px;
+  text-transform: none;
+  border: 0;
+  margin: 0;
+  padding: 0;
+  vertical-align: baseline;
 }
 </style>

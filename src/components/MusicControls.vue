@@ -5,10 +5,10 @@
         <div class="info-box">
           <div class="card-title">
             <div class="lx-s">
-              <img src="../assets/FCMB.png" alt="card-img" />
+              <img src="../assets/off-season.png" alt="card-img" />
             </div>
             <div class="lm">
-              <a href=""><p>Rap UK</p></a>
+              <a href=""><p>J. Cole</p></a>
             </div>
           </div>
         </div>
