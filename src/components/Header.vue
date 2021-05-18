@@ -9,7 +9,8 @@
         <li><a href="#">Support</a></li>
         <li><a href="#">Download</a></li>
         <li>
-          <a> <router-link to="/webplayer"> Web Player </router-link> </a>
+          <!-- <a> <router-link to="/webplayer"> Web Player </router-link> </a> -->
+          <a @click="webPlayer"> Web Player </a>
         </li>
         <li class="seperator">|</li>
         <li>
@@ -20,16 +21,6 @@
         </li>
       </ul>
     </div>
-    <div class="lottie">
-      <lottie-player
-        src="https://assets7.lottiefiles.com/packages/lf20_ugylqlzx.json"
-        background="transparent"
-        speed="1"
-        style="width: 300px; height: 300px;"
-        autoplay
-      >
-      </lottie-player>
-    </div>
   </header>
 </template>
 
@@ -37,14 +28,19 @@
 export default {
   name: "Header",
   components: {},
+  methods: {
+    webPlayer() {
+      this.$router.push("/loader");
+      setTimeout(() => {
+        this.$router.push("/webplayer");
+      }, 3000);
+    },
+  },
 };
 </script>
 
 //
 <style lang="scss" scoped>
-.lottie {
-  display: none;
-}
 header {
   height: 8rem;
   background-color: $color-body;
